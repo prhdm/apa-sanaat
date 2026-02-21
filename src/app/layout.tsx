@@ -3,6 +3,8 @@ import './globals.css'
 import { getCategories } from '@/lib/queries/products'
 import AppShell from '@/components/layout/app-shell'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'سیال صنعت اپا',
   description: 'تامین‌کننده تجهیزات پنوماتیک، شیرهای برقی، پرشرسوئیچ و واحدهای فیلتراسیون صنعتی',
